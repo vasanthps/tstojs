@@ -1,0 +1,23 @@
+{
+  "name": "tstojs",
+  "version": "1.0.0",
+  "description": "ts to js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "javascript",
+    "converter"
+  ],
+  "author": "vasanthps",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-typescript": "^7.25.2",
+    "fs-extra": "^11.2.0",
+    "recast": "^0.23.9"
+  }
+}
